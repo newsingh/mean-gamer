@@ -186,7 +186,7 @@ public class TicTacToe extends Activity {
     		// declare draw   
 			drawCount++;
     		isGameOver = true;
-    		display("Game draw", isGameOver, Color.BLACK, 0);
+    		display("Game draw ", isGameOver, Color.BLACK, 0);
     	}
     	
     	// check if player won
@@ -195,7 +195,7 @@ public class TicTacToe extends Activity {
     		// declare player win
 			playerWinCount++;
     		isGameOver = true;
-    		display("Player won", isGameOver, Color.BLUE, 1);
+    		display("Player won ", isGameOver, Color.BLUE, 1);
 		}
 		
     	// check if computer won
