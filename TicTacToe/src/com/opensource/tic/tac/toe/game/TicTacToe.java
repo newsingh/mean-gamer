@@ -57,7 +57,7 @@ public class TicTacToe extends Activity {
     {
     	// result text
     	TextView resultView = (TextView) findViewById(R.id.resultText);
-    	resultView.setText("Player to move...");
+    	resultView.setText("Player to move");
     	resultView.setBackgroundColor(Color.BLACK);
     	resultView.setTextColor(Color.WHITE);
     	resultView.setTextScaleX(1);
