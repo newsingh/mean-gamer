@@ -139,7 +139,7 @@ public class TicTacToe extends Activity {
 			game.movePlayer(getPosition(button));
 			button.setText("O");
 			button.setBackgroundColor(Color.BLUE);
-			button.setEnabled(false);
+			button.setEnabled(false); 
 		}
 	}
 
@@ -149,7 +149,7 @@ public class TicTacToe extends Activity {
 			if (GameEngine.COMPUTER_CANT_MOVE != moveIndex) {
 				buttonList.get(moveIndex).setText("X");
 				buttonList.get(moveIndex).setBackgroundColor(Color.RED);
-				buttonList.get(moveIndex).setEnabled(false);
+				buttonList.get(moveIndex).setEnabled(false); 
 			}
 		}
 	}
