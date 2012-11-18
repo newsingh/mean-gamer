@@ -1,4 +1,4 @@
 mean-gamer
 ==========
 
-It tics and toes.
+This tac-tac-toe game is free and open source, which is published under the GPLv3.
